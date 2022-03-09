@@ -1,7 +1,4 @@
-package self_flat_tree.self
-
-package_ := ["self_flat_tree", "test"]
-name := "p"
+package self_flat_tree.self.metadata
 
 metadata := [
     {
