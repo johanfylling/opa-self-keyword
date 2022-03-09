@@ -23,7 +23,7 @@ s[msg] {
 
     title == "My Test Package"
 
-    msg = "s1"
+    msg = "inherit"
 }
 
 # Unannotated rules are still present as the first element in the metadata chain
@@ -33,5 +33,5 @@ s[msg] {
     m.path == ["self_chain", "test", "s"]
     m["annotations"] == null # should missing rule annotations be represented by 'undefined', 'null' or '{}'?
 
-    msg = "s2"
+    msg = "unannotated"
 }
